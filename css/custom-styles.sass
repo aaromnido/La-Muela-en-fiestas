@@ -20,12 +20,33 @@ a
 a:hover, a:focus, a:active
 	color: $cyan
 
+.thin
+    font-weight: 100 !important
 
+.hidden
+    opacity: 0
 
+.button
+    &.stroke:hover
+        border: 3px solid white
+        background-color: transparentize($cyan, 0.2) !important
+
+.fa-blind
+    background: url(../images/icon-blind.svg)
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
+    width: 70%
+    height: 70%
+    margin-top: 10%
+
+.white-section
+    background: white
 
 #intro
     background: $blue url(../images/hero-bg.jpg) no-repeat center bottom
     background-size: cover
+    border: 10px solid $cyan
 
 .intro-overlay
 	background: transparentize($night, 0.5)
@@ -52,6 +73,29 @@ header
         li a:hover
             color: $cyan
 
+.intro-content
+
+    h1
+        max-width: 100%
+
+        .thin
+            font-family: "poppins-light", sans-serif
+    h5
+        color: $yellow
+        font-size: 4rem
+
+    .intro-position
+        span
+            font-family: "poppins-light", sans-serif
+            font-size: 2.5rem
+            color: $yellow
+        strong,
+        b
+            font-family: "poppins-bold", sans-serif
+            font-size: 2.5rem
+
+
+
 .section-intro
     h1
         color: $night
@@ -67,3 +111,46 @@ header
     .resume-header
         h2
             color: $red
+
+.programa
+    position: relative
+    padding-top: 140px
+    padding-bottom: 5px
+
+    &::after
+        content: ""
+        position: absolute
+        width: 10%
+        height: 5px
+        background: $cyan
+        margin-left: 45%
+
+    p,
+    h3,
+    h4
+        color: $night-dark !important
+
+    .timeline-ico
+        background-color: $cyan
+
+        &.mayores
+            background-color: lighten($night, 15%)
+
+        &.infantil
+            background-color: $red
+
+    .timeline-header
+        p
+            opacity: 0.5
+
+    .timeline-content
+        h4
+            margin-bottom: 0
+            padding-bottom: 0
+
+            &:after
+                display: none
+
+
+    .resume-header h2
+        color: $red

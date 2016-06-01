@@ -12,9 +12,37 @@ a:hover, a:focus, a:active {
   color: #1BC1F5;
 }
 
+.thin {
+  font-weight: 100 !important;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.button.stroke:hover {
+  border: 3px solid white;
+  background-color: rgba(27, 193, 245, 0.8) !important;
+}
+
+.fa-blind {
+  background: url(../images/icon-blind.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 70%;
+  margin-top: 10%;
+}
+
+.white-section {
+  background: white;
+}
+
 #intro {
   background: #227FBB url(../images/hero-bg.jpg) no-repeat center bottom;
   background-size: cover;
+  border: 10px solid #1BC1F5;
 }
 
 .intro-overlay {
@@ -43,6 +71,31 @@ header .main-navigation li a:hover {
   color: #1BC1F5;
 }
 
+.intro-content h1 {
+  max-width: 100%;
+}
+
+.intro-content h1 .thin {
+  font-family: "poppins-light", sans-serif;
+}
+
+.intro-content h5 {
+  color: #F2C500;
+  font-size: 4rem;
+}
+
+.intro-content .intro-position span {
+  font-family: "poppins-light", sans-serif;
+  font-size: 2.5rem;
+  color: #F2C500;
+}
+
+.intro-content .intro-position strong,
+.intro-content .intro-position b {
+  font-family: "poppins-bold", sans-serif;
+  font-size: 2.5rem;
+}
+
 .section-intro h1 {
   color: #33485F;
 }
@@ -56,5 +109,55 @@ header .main-navigation li a:hover {
 }
 
 #resume .resume-header h2 {
+  color: #FF3A1F;
+}
+
+.programa {
+  position: relative;
+  padding-top: 140px;
+  padding-bottom: 5px;
+}
+
+.programa::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 5px;
+  background: #1BC1F5;
+  margin-left: 45%;
+}
+
+.programa p,
+.programa h3,
+.programa h4 {
+  color: #2B3E51 !important;
+}
+
+.programa .timeline-ico {
+  background-color: #1BC1F5;
+}
+
+.programa .timeline-ico.mayores {
+  background-color: #4e6e91;
+}
+
+.programa .timeline-ico.infantil {
+  background-color: #FF3A1F;
+}
+
+.programa .timeline-header p {
+  opacity: 0.5;
+}
+
+.programa .timeline-content h4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.programa .timeline-content h4:after {
+  display: none;
+}
+
+.programa .resume-header h2 {
   color: #FF3A1F;
 }

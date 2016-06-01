@@ -1,0 +1,60 @@
+body {
+  border: 10px solid transparent;
+  background: #192530;
+  color: #33485F;
+}
+
+a {
+  color: #227FBB;
+}
+
+a:hover, a:focus, a:active {
+  color: #1BC1F5;
+}
+
+#intro {
+  background: #227FBB url(../images/hero-bg.jpg) no-repeat center bottom;
+  background-size: cover;
+}
+
+.intro-overlay {
+  background: rgba(51, 72, 95, 0.5);
+}
+
+header .top-bar {
+  width: 82%;
+}
+
+header .top-bar,
+header .main-navigation {
+  background: #192530;
+}
+
+header .logo a {
+  background: url("../images/logo-comision.png") no-repeat left;
+  width: 291px;
+  height: 80px;
+  background-size: 100%;
+  margin: -20px 0 15px 0;
+}
+
+header .main-navigation li.current > a,
+header .main-navigation li a:hover {
+  color: #1BC1F5;
+}
+
+.section-intro h1 {
+  color: #33485F;
+}
+
+.section-intro h5 {
+  color: #FF3A1F;
+}
+
+.about-content h3 {
+  color: #33485F;
+}
+
+#resume .resume-header h2 {
+  color: #FF3A1F;
+}

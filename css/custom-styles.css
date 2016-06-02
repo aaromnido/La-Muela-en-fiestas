@@ -76,6 +76,11 @@ header .top-bar {
   text-align: center;
 }
 
+header .logos {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
 header .logos a img {
   width: 180px;
 }

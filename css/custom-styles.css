@@ -72,10 +72,17 @@ header .main-navigation {
   background: #192530;
 }
 
+header .top-bar {
+  text-align: center;
+}
+
+header .logos a img {
+  width: 180px;
+}
+
 header .logo a {
   background: url("../images/logo-comision.png") no-repeat left;
-  width: 291px;
-  height: 80px;
+  max-width: 400px;
   background-size: 100%;
   margin: -20px 0 15px 0;
 }

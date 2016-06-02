@@ -43,10 +43,20 @@ a:hover, a:focus, a:active
 .white-section
     background: white
 
+.dark-section
+    background-color: $night-dark !important
+    h1
+        color: white !important
+
 #intro
     background: $blue url(../images/hero-bg.jpg) no-repeat center bottom
     background-size: cover
     border: 10px solid $cyan
+    position: relative
+
+    .winner-band
+        bottom: 0px
+        left: 0
 
 .intro-overlay
 	background: transparentize($night, 0.5)
@@ -154,3 +164,30 @@ header
 
     .resume-header h2
         color: $red
+
+
+footer
+    min-height: 80%
+    padding-top: 4rem
+    background:  url(../images/footer-bg.jpg) no-repeat center bottom
+    background-size: cover
+    position: relative
+
+    .copyright
+        color: transparentize(white, 0.5)
+
+.winner-band
+    background: $black
+    text-align: center
+    position: absolute
+    bottom: 0px
+    width: 100%
+
+    h6, strong
+        color: lighten($night, 15%)
+        font-size: 1.2rem !important
+        margin-bottom: 0
+        font-family: "poppins-light", sans-serif
+
+    strong
+        font-family: "poppins-bold", sans-serif

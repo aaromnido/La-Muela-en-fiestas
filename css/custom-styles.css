@@ -132,6 +132,10 @@ header .main-navigation li a:hover {
   padding-bottom: 5px;
 }
 
+.programa.last-section .timeline-wrap:last-child {
+  padding-bottom: 100px;
+}
+
 .programa::after {
   content: "";
   position: absolute;
@@ -159,6 +163,10 @@ header .main-navigation li a:hover {
   background-color: #FF3A1F;
 }
 
+.programa .timeline-ico.religioso {
+  background-color: #F2C500;
+}
+
 .programa .timeline-header p {
   opacity: 0.5;
 }
@@ -182,6 +190,10 @@ footer {
   background: url(../images/footer-bg.jpg) no-repeat center bottom;
   background-size: cover;
   position: relative;
+}
+
+footer a:hover {
+  color: #FF3A1F;
 }
 
 footer .copyright {
@@ -217,4 +229,19 @@ footer .copyright {
 
 #preloader {
   background: #192530;
+}
+
+.portfolio {
+  padding-bottom: 200px;
+}
+
+.portfolio .folio-item:hover .overlay {
+  background: rgba(25, 37, 48, 0.9);
+  cursor: default;
+}
+
+.portfolio .footer h3 {
+  color: white;
+  text-align: center;
+  margin-top: 6rem;
 }

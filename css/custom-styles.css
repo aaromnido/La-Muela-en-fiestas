@@ -40,7 +40,7 @@ a:hover, a:focus, a:active {
 }
 
 .dark-section {
-  background-color: #2B3E51 !important;
+  background-color: #1c2a37 !important;
 }
 
 .dark-section h1 {
@@ -205,4 +205,16 @@ footer .copyright {
 
 .winner-band strong {
   font-family: "poppins-bold", sans-serif;
+}
+
+#go-top a {
+  background-color: #1BC1F5;
+}
+
+#go-top a:hover {
+  background-color: #33485F;
+}
+
+#preloader {
+  background: #192530;
 }

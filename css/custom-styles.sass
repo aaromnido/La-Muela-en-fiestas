@@ -44,7 +44,7 @@ a:hover, a:focus, a:active
     background: white
 
 .dark-section
-    background-color: $night-dark !important
+    background-color: lighten($black, 2%) !important
     h1
         color: white !important
 
@@ -191,3 +191,12 @@ footer
 
     strong
         font-family: "poppins-bold", sans-serif
+
+#go-top
+    a
+        background-color: $cyan
+        &:hover
+            background-color: $night
+
+#preloader
+    background: $black

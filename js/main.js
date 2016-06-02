@@ -190,19 +190,19 @@
 	/*---------------------------------------------------- */
   	/* Smooth Scrolling
   	------------------------------------------------------ */
-  	$('.smoothscroll').on('click', function(e) {
+  	$('.smoothscroll').on('click', function (e) {
 
-  	  //e.preventDefault();
-/*
-  	  var target = this.hash,
-  	    $target = $(target);
+	 	e.preventDefault();
 
-  	  $('html, body').stop().animate({
-  	    'scrollTop': $target.offset().top
-  	  }, 800, 'swing', function() {
-  	    window.location.hash = target;
-  	  });
-*/
+   	var target = this.hash,
+    	$target = $(target);
+
+    	$('html, body').stop().animate({
+       	'scrollTop': $target.offset().top
+      }, 800, 'swing', function () {
+      	window.location.hash = target;
+      });
+
   	});
 
 

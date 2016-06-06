@@ -257,3 +257,44 @@ footer .copyright {
   text-align: center;
   margin-top: 6rem;
 }
+
+.flickr-gallery {
+  margin-top: 2rem;
+}
+
+.flickr-gallery a {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.flickr-gallery a .caption {
+  color: white;
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin-top: 40%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  font-size: 3.2vw !important;
+  opacity: 1;
+}
+
+.flickr-gallery a .caption span {
+  border: 2px solid white;
+  background: rgba(25, 37, 48, 0.5);
+  padding: 0.5rem 1.5rem;
+}
+
+.flickr-gallery a img {
+  transition: all 0.4s;
+}
+
+.flickr-gallery a:hover .caption {
+  opacity: 1;
+}
+
+.flickr-gallery a:hover img {
+  opacity: 0.1;
+}

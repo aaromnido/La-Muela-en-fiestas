@@ -3,8 +3,8 @@
 //
 $cyan: #1BC1F5
 $blue: #227FBB
+$red: #FF2E00
 $yellow: #F2C500
-$red: #FF3A1F
 $night: #33485F
 $night-dark: #2B3E51
 $black: #192530
@@ -101,13 +101,29 @@ header
             font-family: "poppins-light", sans-serif
     h5
         color: $yellow
-        font-size: 4rem
+        font-size: 6rem
+        margin-bottom: 0
+        line-height: 3rem
+    
+    h6
+        color: $yellow
+        font-size: 3.7rem
+    
+    .button
+        border-color: white
+        color: white
 
     .intro-position
+        .wrapper
+            display: inline-block
+            background: transparentize($black, 0.2)
+            padding: 1rem
         span
             font-family: "poppins-light", sans-serif
             font-size: 2.5rem
             color: $yellow
+
+
         strong,
         b
             font-family: "poppins-bold", sans-serif
@@ -165,6 +181,9 @@ header
         &.religioso
             background-color: $yellow
 
+        &.music
+            background-color: $black
+
     .timeline-header
         p
             opacity: 0.5
@@ -185,7 +204,7 @@ header
 footer
     min-height: 80%
     padding-top: 4rem
-    background:  url(../images/footer-bg.jpg) no-repeat center bottom
+    background:  url(../images/footer-bg.jpg) no-repeat center
     background-size: cover
     position: relative
 
